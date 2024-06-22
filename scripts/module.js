@@ -6,10 +6,6 @@ function registerSettingsMenu() {
     config: true, // false if you don't want it to show in module config
     type: Boolean, // Use the Boolean constructor for type definition
     default: true,
-    onChange: (value) => {
-      // value is the new value of the setting
-      console.log(value);
-    },
     requiresReload: true, // true if you want to prompt the user to reload
   });
 }
