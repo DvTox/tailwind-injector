@@ -1,15 +1,33 @@
 {
   "id": "tailwind-injector",
   "title": "Tailwind-injector",
-  "version": "1.0.0",
+  "description": "This Module loads Tailwind CSS by Injecting a link tag to the CDN version of tailwind into the page head.\n\nNote: do to the need to inject tailwind any Upsides of the Build step are lost",
+  "version": "#{VERSION}#",
   "libary": "true",
+  "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": "1",
-    "verified": "11",
-    "maximum": "12"
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "11"
   },
+  "authors": [
+    {
+      "name": "DvTox",
+      "url": "https://github.com/DvTox"
+    }
+  ],
   "esmodules": [
     "scripts/module.js"
   ],
-  "description": "This Module loads Tailwind CSS by Injecting a link tag to the CDN version of tailwind into the page head.\n\nNote: do to the need to inject tailwind any Upsides of the Build step are lost"
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+    }
+  ]
 }

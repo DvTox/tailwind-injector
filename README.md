@@ -1,0 +1,1 @@
+# Thanks to League of Extraordinary FoundryVTT Developers For the Github Action [League-of-Foundry-Developers/FoundryVTT-Module-Template](https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template)
