@@ -2,9 +2,11 @@
   "id": "tailwind-injector",
   "title": "Tailwind-injector",
   "version": "1.0.0",
+  "libary": "true",
   "compatibility": {
     "minimum": "1",
-    "verified": "11"
+    "verified": "11",
+    "maximum": "12"
   },
   "esmodules": [
     "scripts/module.js"
