@@ -6,5 +6,8 @@
     "minimum": "1",
     "verified": "11"
   },
+  "esmodules": [
+    "scripts/module.js"
+  ],
   "description": "This Module loads Tailwind CSS by Injecting a link tag to the CDN version of tailwind into the page head.\n\nNote: do to the need to inject tailwind any Upsides of the Build step are lost"
 }
